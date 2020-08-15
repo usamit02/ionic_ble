@@ -1,0 +1,7 @@
+{
+  "name": "clife",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

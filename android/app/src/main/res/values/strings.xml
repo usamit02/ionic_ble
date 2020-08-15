@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">clife</string>
+    <string name="title_activity_main">clife</string>
+    <string name="package_name">io.ionic.starter</string>
+    <string name="custom_url_scheme">io.ionic.starter</string>
+
+    <string name="search">Search</string>
+    <string name="device_name">Device Name : </string>
+    <string name="device_address">Device Address : </string>
+    <!-- MainActivity トースト用 -->
+    <string name="ble_is_not_supported">BLE is not supported</string>
+    <string name="bluetooth_is_not_supported">Bluetooth is not supported.</string>
+    <string name="bluetooth_is_not_working">Bluetooth is not working.</string>
+    <string name="ble_is_support">BLE is support!</string>
+    <string name="unknown_device">Unknown device</string>
+
+    <!-- DeviceListActivity メニュー用 -->
+    <string name="scan">Scan</string>
+    <string name="stop">Stop</string>
+
+</resources>
