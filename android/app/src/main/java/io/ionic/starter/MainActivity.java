@@ -6,6 +6,7 @@ import com.getcapacitor.BridgeActivity;
 import com.getcapacitor.Plugin;
 
 import java.util.ArrayList;
+import java.util.logging.Handler;
 
 public class MainActivity extends BridgeActivity {
   @Override

@@ -14,11 +14,19 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
+    <strong>Ready to reate an app?</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
   <ion-item>
     <ion-button (click)="show()">native</ion-button>
+    <ion-button (click)="init()">init</ion-button>
+    <ion-button (click)="scan()">scan</ion-button>
     <ion-button slot="end" (click)="toast()">web</ion-button>
+  </ion-item>
+  <ion-item *ngFor="let device of devices">{{device.na}}：{{device.mac}}
+    <ion-button (click)="gatt(device.mac)">gatt</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-button (click)="write('dummy')">write</ion-button>
   </ion-item>
 </ion-content>
